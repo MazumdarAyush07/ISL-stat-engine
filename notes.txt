@@ -1,0 +1,42 @@
+The important functions and notes related to this project will be available here as a guide.
+Libraries:
+
+1.  pandas: pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
+2.  numpy: NumPy is a Python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices. It stands for Numerical Python.
+3.  matplotlib: Matplotlib is a low level graph plotting library in python that serves as a visualization utility.
+4.  scipy: SciPy is a scientific computation library that uses NumPy underneath. SciPy stands for Scientific Python. It provides more utility functions for optimization, stats and signal processing. Like NumPy, SciPy is open source so we can use it freely.
+5.  seaborn: Seaborn is a library that uses Matplotlib underneath to plot graphs. It will be used to visualize random distributions.
+6.  pyplot: It is a collection of functions that make matplotlib work like MATLAB. Each pyplot function makes some change to a figure.
+7.  patches: A patch is a 2D artist with a face color and an edge color.
+8. mplsoccer: mplsoccer is a Python library for plotting soccer/football charts in Matplotlib and loading StatsBomb open-data.
+9. warnings: Warnings are provided to warn the developer of situations that aren’t necessarily exceptions. The warning module is actually a subclass of Exception which is a built-in class in Python.
+10. adjustText: adjustText is a small library to help you adjust text positions on matplotlib plots to remove or minimize overlaps with each other and data points.
+
+Functions and others:
+
+1.  read_csv(): read csv files
+2.  sort_values(): sort the values recieved in a particular order
+3. subplots(figsize = (x,y)): Create a plotting area of x inches X y inches.
+4. set_facecolor(): Used to set the background color of the  plotting area.
+5. add_axes(): Used to add the parameters for the axis.
+6. axis(): Hide the components of x and y axis.
+7. grid(): Add grid lines
+8. barh(): Creates horizontal bar graphs
+9. invert_yaxis(): Invert the y aixs
+10. set_visible(): The Axes.set_visible() function in axes module of matplotlib library is used to set the artist's visibility.
+11. set_ticks_position(): Ticks are the values used to show specific points on the coordinate axis
+12. set_xlabel(): Set the label of the x axis.
+13. text(): Used to add text in the figure
+14. rcParams: In the context of Matplotlib, rcParams is a dictionary object that allows you to customize default settings for your plots.
+15. filterwarnings('ignore'): Never display warnings.
+16. drop_duplicates(): Used to drop duplicate tuples from a dataset
+17. quantile(): The quantile() method calculates the quantile of the values in a given axis. Default axis is row.
+18. axhline(): add horizontal lines in data coordinates
+19. axvline(): add vertical lines in date coordinates
+20. to_list(): to_list() is a method specifically designed for index objects in Pandas. It returns the index as a list.
+21. scatter(): Scatter plots are used to observe relationship between variables and uses dots to represent the relationship between them.
+22. len(): Used to find the length of a string
+23. join(): Used to join to strings
+24. set_ylabel(): Set the label of the y axis.
+25. get_xlim(): It is used to return the x axis view limits.
+26. append(): Used to add an element to the end of a text.
